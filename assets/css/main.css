@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#page {
+    position: fixed;
+    inset: 0;
+    background: url("https://pan6.vercel.app/aassets/img/index2-background-test1.jpg") center bottom / cover no-repeat;
+    filter: blur(22px);
+    transform: scale(1.1); /* prevents blur edges showing */
+    z-index: -1;
+}
+
+#indoor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
